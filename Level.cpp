@@ -240,10 +240,11 @@ void Level::dropRandomPiece()
 int Level::clearRows()
 {
 	int clearRowCount = 0;
-	bool isNeedClear = false;
+	bool isNeedClear;
 
 	for(int y = 0; y < height_; ++y)
 	{
+		isNeedClear = false;
 		for(int x = 0; x < width_; ++x)
 		{
 			//如果有一个方块颜色是背景色，说明不用消除

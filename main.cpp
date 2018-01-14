@@ -45,7 +45,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
 	}
 
 	hwnd = CreateWindow(szAppName,
-		TEXT("Eliang's Tetris"),
+		TEXT("Zhongxuan's Tetris"),
 		WS_MINIMIZEBOX | WS_SYSMENU,  // No window resizing
 		CW_USEDEFAULT,
 		CW_USEDEFAULT,
